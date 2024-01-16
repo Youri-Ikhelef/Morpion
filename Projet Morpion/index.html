@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Inclusion du fichier css pour le style du jeu -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inclusion des 2 scripts nécessaires pour faire fonctionner le jeu -->
+    <script src="scripts/Morpion.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Morpion</h1>
+      <h2>Jeu de Morpion - Tic Tac Toe</h2>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <div class="zoneTourResultat"></div>
+      <div class="conteneur">
+        <div class="emplacement-0-0 case1" mindex="0"></div>
+        <div class="emplacement-1-0 case2"></div>
+        <div class="emplacement-2-0 case3"></div>
+        <div class="emplacement-0-1 case4"></div>
+        <div class="emplacement-1-1 case5"></div>
+        <div class="emplacement-2-1 case6"></div>
+        <div class="emplacement-0-2 case7"></div>
+        <div class="emplacement-1-2 case8"></div>
+        <div class="emplacement-2-2 case9"></div>
+      </div>
+
+      <div class="zoneBouton"><button id="start">JOUER</button></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>Site projet par Youri Ikhelef</div>
+    </footer>
+  </body>
+</html>
